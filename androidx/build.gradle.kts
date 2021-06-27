@@ -67,9 +67,9 @@ catalog {
         alias("preference").to("androidx.preference", "preference-ktx").versionRef("preference")
         alias("recyclerview").to("androidx.recyclerview", "recyclerview").versionRef("recycler")
 
-        alias("room-runtime").to("androidx.room", "room-runtime").versionRef("room")
-        alias("room-compiler").to("androidx.room", "room-compiler").versionRef("room")
-        alias("room-ktx").to("androidx.room", "room-ktx").versionRef("room")
+        alias("roomRuntime").to("androidx.room", "room-runtime").versionRef("room")
+        alias("roomCompiler").to("androidx.room", "room-compiler").versionRef("room")
+        alias("room").to("androidx.room", "room-ktx").versionRef("room")
 
         alias("swiperefreshlayout").to("androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
 
