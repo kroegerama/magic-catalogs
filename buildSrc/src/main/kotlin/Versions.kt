@@ -7,8 +7,8 @@ object V {
         val biometric = "1.1.0"
         val browser = "1.3.0"
         val constraintlayout = "2.0.4"
-        val core = "1.5.0"
-        val datastore = "1.0.0-beta02"
+        val core = "1.6.0"
+        val datastore = "1.0.0-rc01"
         val exif = "1.3.2"
         val fragment = "1.3.5"
         val hilt = "1.0.0"
@@ -23,9 +23,9 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.5.20"
-        val kotlinxCoroutines = "1.5.0"
-        val kotlinxSerialization = "1.2.1"
+        val kotlin = "1.5.21"
+        val kotlinxCoroutines = "1.5.1"
+        val kotlinxSerialization = "1.2.2"
 
         val desugar = "1.1.5"
 
@@ -35,16 +35,16 @@ object V {
         val okhttp = "4.9.1"
         val retrofit = "2.9.0"
 
-        val material = "1.4.0-rc01"
+        val material = "1.4.0"
 
         val timber = "4.7.1"
 
-        val coil = "1.2.2"
+        val coil = "1.3.0"
         val chucker = "3.4.0"
     }
 
     object Plugins {
-        val androidGradle = "7.1.0-alpha02"
+        val androidGradle = "7.1.0-alpha03"
     }
 
 }
