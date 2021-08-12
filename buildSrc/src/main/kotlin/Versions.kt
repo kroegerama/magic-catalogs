@@ -1,18 +1,18 @@
 object V {
 
     object AndroidX {
-        val activity = "1.3.0"
+        val activity = "1.3.1"
         val appcompat = "1.3.1"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
         val browser = "1.3.0"
-        val constraintlayout = "2.0.4"
+        val constraintlayout = "2.1.0"
         val core = "1.6.0"
-        val datastore = "1.0.0-rc02"
-        val exif = "1.3.2"
+        val datastore = "1.0.0"
+        val exif = "1.3.3"
         val fragment = "1.3.6"
         val hilt = "1.0.0"
-        val lifecycle = "2.4.0-alpha02"
+        val lifecycle = "2.4.0-alpha03"
         val navigation = "2.3.5"
         val paging = "3.0.1"
         val preference = "1.1.1"
@@ -37,14 +37,14 @@ object V {
 
         val material = "1.4.0"
 
-        val timber = "4.7.1"
+        val timber = "5.0.0"
 
-        val coil = "1.3.1"
-        val chucker = "3.5.0"
+        val coil = "1.3.2"
+        val chucker = "3.5.2"
     }
 
     object Plugins {
-        val androidGradle = "7.1.0-alpha05"
+        val androidGradle = "7.1.0-alpha08"
     }
 
 }
