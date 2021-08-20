@@ -37,14 +37,14 @@ object V {
 
         val material = "1.4.0"
 
-        val timber = "5.0.0"
+        val timber = "5.0.1"
 
         val coil = "1.3.2"
         val chucker = "3.5.2"
     }
 
     object Plugins {
-        val androidGradle = "7.1.0-alpha08"
+        val androidGradle = "7.0.1"
     }
 
 }
