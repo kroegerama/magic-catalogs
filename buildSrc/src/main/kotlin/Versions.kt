@@ -23,7 +23,7 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.5.21"
+        val kotlin = "1.5.30"
         val kotlinxCoroutines = "1.5.1"
         val kotlinxSerialization = "1.2.2"
 
