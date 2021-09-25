@@ -21,6 +21,7 @@ catalog {
             version("material", material)
 
             version("timber", timber)
+            version("logcat", logcat)
 
             version("coil", coil)
             version("chucker", chucker)
@@ -30,6 +31,7 @@ catalog {
 
         alias("coroutines-core").to("org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("kotlinxCoroutines")
         alias("coroutines-android").to("org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("kotlinxCoroutines")
+        alias("coroutines-play-services").to("org.jetbrains.kotlinx", "kotlinx-coroutines-play-services").versionRef("kotlinxCoroutines")
 
         alias("kotlinx-serialization-json").to("org.jetbrains.kotlinx", "kotlinx-serialization-json").versionRef("kotlinxSerialization")
 
@@ -50,8 +52,10 @@ catalog {
         alias("material").to("com.google.android.material", "material").versionRef("material")
 
         alias("timber").to("com.jakewharton.timber", "timber").versionRef("timber")
+        alias("logcat").to("com.squareup.logcat", "logcat").versionRef("logcat")
 
         alias("coil").to("io.coil-kt", "coil").versionRef("coil")
+        alias("coil-gif").to("io.coil-kt", "coil-gif").versionRef("coil")
 
         alias("chucker").to("com.github.chuckerteam.chucker", "library").versionRef("chucker")
         alias("chuckerNoop").to("com.github.chuckerteam.chucker", "library-no-op").versionRef("chucker")
