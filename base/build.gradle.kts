@@ -55,7 +55,7 @@ catalog {
         alias("logcat").to("com.squareup.logcat", "logcat").versionRef("logcat")
 
         alias("coil").to("io.coil-kt", "coil").versionRef("coil")
-        alias("coil-gif").to("io.coil-kt", "coil-gif").versionRef("coil")
+        alias("coilGif").to("io.coil-kt", "coil-gif").versionRef("coil")
 
         alias("chucker").to("com.github.chuckerteam.chucker", "library").versionRef("chucker")
         alias("chuckerNoop").to("com.github.chuckerteam.chucker", "library-no-op").versionRef("chucker")
