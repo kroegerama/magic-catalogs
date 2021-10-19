@@ -59,10 +59,8 @@ catalog {
         alias("lifecycle-viewmodelSavedState").to("androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
 
         alias("navigation-common").to("androidx.navigation", "navigation-common").versionRef("navigation")
-        alias("navigation-fragment").to("androidx.navigation", "navigation-fragment").versionRef("navigation")
-        alias("navigation-fragmentKtx").to("androidx.navigation", "navigation-fragment-ktx").versionRef("navigation")
-        alias("navigation-ui").to("androidx.navigation", "navigation-ui").versionRef("navigation")
-        alias("navigation-uiKtx").to("androidx.navigation", "navigation-ui-ktx").versionRef("navigation")
+        alias("navigation-fragment").to("androidx.navigation", "navigation-fragment-ktx").versionRef("navigation")
+        alias("navigation-ui").to("androidx.navigation", "navigation-ui-ktx").versionRef("navigation")
 
         alias("paging-runtime").to("androidx.paging", "paging-runtime-ktx").versionRef("paging")
 
@@ -105,9 +103,7 @@ catalog {
             "navigation",
             listOf(
                 "navigation-fragment",
-                "navigation-fragmentKtx",
                 "navigation-ui",
-                "navigation-uiKtx"
             )
         )
     }

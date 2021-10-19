@@ -9,6 +9,7 @@ catalog {
             version("kotlin", kotlin)
             version("kotlinxCoroutines", kotlinxCoroutines)
             version("kotlinxSerialization", kotlinxSerialization)
+            version("kotlinxDateTime", kotlinxDateTime)
 
             version("desugar", desugar)
 
@@ -34,6 +35,8 @@ catalog {
         alias("coroutines-play-services").to("org.jetbrains.kotlinx", "kotlinx-coroutines-play-services").versionRef("kotlinxCoroutines")
 
         alias("kotlinx-serialization-json").to("org.jetbrains.kotlinx", "kotlinx-serialization-json").versionRef("kotlinxSerialization")
+        alias("kotlinx-serialization-protobuf").to("org.jetbrains.kotlinx", "kotlinx-serialization-protobuf").versionRef("kotlinxSerialization")
+        alias("kotlinx-dateTime").to("org.jetbrains.kotlinx", "kotlinx-datetime").versionRef("kotlinxDateTime")
 
         alias("desugar").to("com.android.tools", "desugar_jdk_libs").versionRef("desugar")
 
