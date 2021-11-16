@@ -23,14 +23,14 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.5.31"
+        val kotlin = "1.6.0"
         val kotlinxCoroutines = "1.5.2"
-        val kotlinxSerialization = "1.3.0"
+        val kotlinxSerialization = "1.3.1"
         val kotlinxDateTime = "0.3.1"
 
         val desugar = "1.1.5"
 
-        val hilt = "2.40"
+        val hilt = "2.40.1"
 
         val moshi = "1.12.0"
         val okhttp = "4.9.2"
