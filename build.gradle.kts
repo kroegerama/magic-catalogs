@@ -26,7 +26,7 @@ subprojects {
             repositories {
                 maven {
                     name = "sonatype"
-                    setUrl("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
+                    setUrl("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
 
                     credentials {
                         val nexusUsername: String? by project
@@ -62,6 +62,13 @@ nexusPublishing {
             stagingProfileId.set(nexusStagingProfileId)
             username.set(nexusUsername)
             password.set(nexusPassword)
+
+            nexusUrl.set(uri("https://s01.oss.sonatype.org/service/local/"))
+            snapshotRepositoryUrl.set(uri("https://s01.oss.sonatype.org/content/repositories/snapshots/"))
         }
     }
+}
+
+tasks.wrapper {
+    distributionType = Wrapper.DistributionType.ALL
 }

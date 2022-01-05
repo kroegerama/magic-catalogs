@@ -69,6 +69,7 @@ catalog {
 
         alias("roomRuntime").to("androidx.room", "room-runtime").versionRef("room")
         alias("roomCompiler").to("androidx.room", "room-compiler").versionRef("room")
+        alias("roomPaging").to("androidx.room", "room-paging").versionRef("room")
         alias("room").to("androidx.room", "room-ktx").versionRef("room")
 
         alias("swiperefreshlayout").to("androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
