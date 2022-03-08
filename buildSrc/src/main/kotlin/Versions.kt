@@ -17,7 +17,7 @@ object V {
         val paging = "3.1.0"
         val preference = "1.2.0"
         val recycler = "1.2.1"
-        val room = "2.4.1"
+        val room = "2.4.2"
         val swiperefresh = "1.1.0"
         val work = "2.7.1"
     }
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "7.1.1"
+        val androidGradle = "7.1.2"
     }
 
 }
