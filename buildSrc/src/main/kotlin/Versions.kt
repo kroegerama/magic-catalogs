@@ -14,7 +14,7 @@ object V {
         val hilt = "1.0.0"
         val lifecycle = "2.4.1"
         val navigation = "2.4.1"
-        val paging = "3.1.0"
+        val paging = "3.1.1"
         val preference = "1.2.0"
         val recycler = "1.2.1"
         val room = "2.4.2"
@@ -23,8 +23,8 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.6.10"
-        val kotlinxCoroutines = "1.6.0"
+        val kotlin = "1.6.20"
+        val kotlinxCoroutines = "1.6.1"
         val kotlinxSerialization = "1.3.2"
         val kotlinxDateTime = "0.3.2"
 
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "7.1.2"
+        val androidGradle = "7.1.3"
     }
 
 }
