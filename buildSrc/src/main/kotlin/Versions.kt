@@ -2,12 +2,12 @@ object V {
 
     object AndroidX {
         val activity = "1.4.0"
-        val appcompat = "1.4.1"
+        val appcompat = "1.4.2"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
         val browser = "1.4.0"
-        val constraintlayout = "2.1.3"
-        val core = "1.7.0"
+        val constraintlayout = "2.1.4"
+        val core = "1.8.0"
         val datastore = "1.0.0"
         val exif = "1.3.3"
         val fragment = "1.4.1"
@@ -24,7 +24,7 @@ object V {
 
     object Base {
         val kotlin = "1.6.21"
-        val kotlinxCoroutines = "1.6.1"
+        val kotlinxCoroutines = "1.6.2"
         val kotlinxSerialization = "1.3.3"
         val kotlinxDateTime = "0.3.2"
 
@@ -36,7 +36,7 @@ object V {
         val okhttp = "4.9.3"
         val retrofit = "2.9.0"
 
-        val material = "1.6.0"
+        val material = "1.6.1"
 
         val timber = "5.0.1"
         val logcat = "0.1"
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "7.2.0"
+        val androidGradle = "7.2.1"
     }
 
 }
