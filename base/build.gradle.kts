@@ -59,6 +59,7 @@ catalog {
 
         alias("coil").to("io.coil-kt", "coil").versionRef("coil")
         alias("coilGif").to("io.coil-kt", "coil-gif").versionRef("coil")
+        alias("coilSvg").to("io.coil-kt", "coil-svg").versionRef("coil")
 
         alias("chucker").to("com.github.chuckerteam.chucker", "library").versionRef("chucker")
         alias("chuckerNoop").to("com.github.chuckerteam.chucker", "library-no-op").versionRef("chucker")
