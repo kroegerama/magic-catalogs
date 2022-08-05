@@ -30,7 +30,7 @@ object V {
 
         val desugar = "1.1.6"
 
-        val hilt = "2.43"
+        val hilt = "2.43.2"
 
         val moshi = "1.13.0"
         val okhttp = "4.10.0"
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "7.2.1"
+        val androidGradle = "7.2.2"
     }
 
 }
