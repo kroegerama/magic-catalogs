@@ -2,7 +2,7 @@ object V {
 
     object AndroidX {
         val activity = "1.5.1"
-        val appcompat = "1.4.2"
+        val appcompat = "1.5.0"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
         val browser = "1.4.0"
@@ -10,7 +10,7 @@ object V {
         val core = "1.8.0"
         val datastore = "1.0.0"
         val exif = "1.3.3"
-        val fragment = "1.5.1"
+        val fragment = "1.5.2"
         val hilt = "1.0.0"
         val lifecycle = "2.5.1"
         val navigation = "2.5.1"
