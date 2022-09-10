@@ -33,6 +33,7 @@ catalog {
         alias("coroutines-core").to("org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("kotlinxCoroutines")
         alias("coroutines-android").to("org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("kotlinxCoroutines")
         alias("coroutines-play-services").to("org.jetbrains.kotlinx", "kotlinx-coroutines-play-services").versionRef("kotlinxCoroutines")
+        alias("coroutines-guava").to("org.jetbrains.kotlinx", "kotlinx-coroutines-guava").versionRef("kotlinxCoroutines")
 
         alias("kotlinx-serialization-json").to("org.jetbrains.kotlinx", "kotlinx-serialization-json").versionRef("kotlinxSerialization")
         alias("kotlinx-serialization-protobuf").to("org.jetbrains.kotlinx", "kotlinx-serialization-protobuf").versionRef("kotlinxSerialization")
