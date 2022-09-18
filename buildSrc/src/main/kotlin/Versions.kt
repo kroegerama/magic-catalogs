@@ -28,7 +28,7 @@ object V {
         val kotlinxSerialization = "1.4.0"
         val kotlinxDateTime = "0.4.0"
 
-        val desugar = "1.1.6"
+        val desugar = "1.2.2"
 
         val hilt = "2.43.2"
 
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "7.2.2"
+        val androidGradle = "7.3.0"
     }
 
 }
