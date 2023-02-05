@@ -6,64 +6,45 @@ version = C.PROJECT_VERSION
 catalog {
     versionCatalog {
         with(V.Base) {
-            version("kotlin", kotlin)
-            version("kotlinxCoroutines", kotlinxCoroutines)
-            version("kotlinxSerialization", kotlinxSerialization)
-            version("kotlinxDateTime", kotlinxDateTime)
+            library("kotlin", "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin")
 
-            version("desugar", desugar)
+            library("coroutines-core", "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinxCoroutines")
+            library("coroutines-android", "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinxCoroutines")
+            library("coroutines-play-services", "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$kotlinxCoroutines")
+            library("coroutines-guava", "org.jetbrains.kotlinx:kotlinx-coroutines-guava:$kotlinxCoroutines")
 
-            version("hilt", hilt)
+            library("kotlinx-serialization-json", "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinxSerialization")
+            library("kotlinx-serialization-protobuf", "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:$kotlinxSerialization")
+            library("kotlinx-dateTime", "org.jetbrains.kotlinx:kotlinx-datetime:$kotlinxDateTime")
 
-            version("moshi", moshi)
-            version("okhttp", okhttp)
-            version("retrofit", retrofit)
+            library("desugar", "com.android.tools:desugar_jdk_libs:$desugar")
 
-            version("material", material)
+            library("hilt-android", "com.google.dagger:hilt-android:$hilt")
+            library("hilt-work", "com.google.dagger:hilt-work:$hilt")
+            library("hilt-compiler", "com.google.dagger:hilt-compiler:$hilt")
 
-            version("timber", timber)
-            version("logcat", logcat)
+            library("moshi-base", "com.squareup.moshi:moshi:$moshi")
+            library("moshi-adapters", "com.squareup.moshi:moshi-adapters:$moshi")
+            library("moshi-codegen", "com.squareup.moshi:moshi-kotlin-codegen:$moshi")
 
-            version("coil", coil)
-            version("chucker", chucker)
+            library("okhttp-base", "com.squareup.okhttp3:okhttp:$okhttp")
+            library("okhttp-logging", "com.squareup.okhttp3:logging-interceptor:$okhttp")
+
+            library("retrofit", "com.squareup.retrofit2:retrofit:$retrofit")
+
+            library("material", "com.google.android.material:material:$material")
+
+            library("timber", "com.jakewharton.timber:timber:$timber")
+            library("logcat", "com.squareup.logcat:logcat:$logcat")
+
+            library("coil", "io.coil-kt:coil:$coil")
+            library("coilGif", "io.coil-kt:coil-gif:$coil")
+            library("coilSvg", "io.coil-kt:coil-svg:$coil")
+            library("coilVideo", "io.coil-kt:coil-video:$coil")
+
+            library("chucker", "com.github.chuckerteam.chucker:library:$chucker")
+            library("chuckerNoop", "com.github.chuckerteam.chucker:library-no-op:$chucker")
         }
-
-        alias("kotlin").to("org.jetbrains.kotlin", "kotlin-stdlib-jdk8").versionRef("kotlin")
-
-        alias("coroutines-core").to("org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("kotlinxCoroutines")
-        alias("coroutines-android").to("org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("kotlinxCoroutines")
-        alias("coroutines-play-services").to("org.jetbrains.kotlinx", "kotlinx-coroutines-play-services").versionRef("kotlinxCoroutines")
-        alias("coroutines-guava").to("org.jetbrains.kotlinx", "kotlinx-coroutines-guava").versionRef("kotlinxCoroutines")
-
-        alias("kotlinx-serialization-json").to("org.jetbrains.kotlinx", "kotlinx-serialization-json").versionRef("kotlinxSerialization")
-        alias("kotlinx-serialization-protobuf").to("org.jetbrains.kotlinx", "kotlinx-serialization-protobuf").versionRef("kotlinxSerialization")
-        alias("kotlinx-dateTime").to("org.jetbrains.kotlinx", "kotlinx-datetime").versionRef("kotlinxDateTime")
-
-        alias("desugar").to("com.android.tools", "desugar_jdk_libs").versionRef("desugar")
-
-        alias("hilt-android").to("com.google.dagger", "hilt-android").versionRef("hilt")
-        alias("hilt-compiler").to("com.google.dagger", "hilt-compiler").versionRef("hilt")
-
-        alias("moshi-base").to("com.squareup.moshi", "moshi").versionRef("moshi")
-        alias("moshi-adapters").to("com.squareup.moshi", "moshi-adapters").versionRef("moshi")
-        alias("moshi-codegen").to("com.squareup.moshi", "moshi-kotlin-codegen").versionRef("moshi")
-
-        alias("okhttp-base").to("com.squareup.okhttp3", "okhttp").versionRef("okhttp")
-        alias("okhttp-logging").to("com.squareup.okhttp3", "logging-interceptor").versionRef("okhttp")
-
-        alias("retrofit").to("com.squareup.retrofit2", "retrofit").versionRef("retrofit")
-
-        alias("material").to("com.google.android.material", "material").versionRef("material")
-
-        alias("timber").to("com.jakewharton.timber", "timber").versionRef("timber")
-        alias("logcat").to("com.squareup.logcat", "logcat").versionRef("logcat")
-
-        alias("coil").to("io.coil-kt", "coil").versionRef("coil")
-        alias("coilGif").to("io.coil-kt", "coil-gif").versionRef("coil")
-        alias("coilSvg").to("io.coil-kt", "coil-svg").versionRef("coil")
-
-        alias("chucker").to("com.github.chuckerteam.chucker", "library").versionRef("chucker")
-        alias("chuckerNoop").to("com.github.chuckerteam.chucker", "library-no-op").versionRef("chucker")
 
         bundle(
             "moshi",

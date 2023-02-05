@@ -10,12 +10,12 @@ catalog {
         version("hilt", V.Base.hilt)
         version("navigation", V.AndroidX.navigation)
 
-        alias("kotlin").to("org.jetbrains.kotlin", "kotlin-gradle-plugin").versionRef("kotlin")
-        alias("kotlinSerialization").to("org.jetbrains.kotlin", "kotlin-serialization").versionRef("kotlin")
+        library("kotlin", "org.jetbrains.kotlin", "kotlin-gradle-plugin").versionRef("kotlin")
+        library("kotlinSerialization", "org.jetbrains.kotlin", "kotlin-serialization").versionRef("kotlin")
 
-        alias("android").to("com.android.tools.build", "gradle").versionRef("androidGradle")
-        alias("hiltAndroid").to("com.google.dagger", "hilt-android-gradle-plugin").versionRef("hilt")
-        alias("navigationSafeArgs").to("androidx.navigation", "navigation-safe-args-gradle-plugin").versionRef("navigation")
+        library("android", "com.android.tools.build", "gradle").versionRef("androidGradle")
+        library("hiltAndroid", "com.google.dagger", "hilt-android-gradle-plugin").versionRef("hilt")
+        library("navigationSafeArgs", "androidx.navigation", "navigation-safe-args-gradle-plugin").versionRef("navigation")
 
         bundle(
             "all",
