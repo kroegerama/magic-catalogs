@@ -1,7 +1,7 @@
 object V {
 
     object AndroidX {
-        val activity = "1.6.1"
+        val activity = "1.7.0"
         val appcompat = "1.6.1"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
@@ -10,16 +10,16 @@ object V {
         val core = "1.9.0"
         val datastore = "1.0.0"
         val exif = "1.3.6"
-        val fragment = "1.5.5"
+        val fragment = "1.5.6"
         val hilt = "1.0.0"
-        val lifecycle = "2.6.0"
+        val lifecycle = "2.6.1"
         val navigation = "2.5.3"
         val paging = "3.1.1"
         val preference = "1.2.0"
         val recycler = "1.3.0"
-        val room = "2.5.0"
+        val room = "2.5.1"
         val swiperefresh = "1.1.0"
-        val work = "2.8.0"
+        val work = "2.8.1"
     }
 
     object Base {
@@ -41,7 +41,7 @@ object V {
         val timber = "5.0.1"
         val logcat = "0.1"
 
-        val coil = "2.2.2"
+        val coil = "2.3.0"
         val chucker = "3.5.2"
     }
 
