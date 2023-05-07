@@ -1,7 +1,7 @@
 object V {
 
     object AndroidX {
-        val activity = "1.7.0"
+        val activity = "1.7.1"
         val appcompat = "1.6.1"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
@@ -10,7 +10,7 @@ object V {
         val core = "1.10.0"
         val datastore = "1.0.0"
         val exif = "1.3.6"
-        val fragment = "1.5.6"
+        val fragment = "1.5.7"
         val hilt = "1.0.0"
         val lifecycle = "2.6.1"
         val navigation = "2.5.3"
@@ -23,20 +23,20 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.8.20"
+        val kotlin = "1.8.21"
         val kotlinxCoroutines = "1.6.4"
         val kotlinxSerialization = "1.5.0"
         val kotlinxDateTime = "0.4.0"
 
         val desugar = "2.0.3"
 
-        val hilt = "2.45"
+        val hilt = "2.46"
 
         val moshi = "1.14.0"
         val okhttp = "4.10.0"
         val retrofit = "2.9.0"
 
-        val material = "1.8.0"
+        val material = "1.9.0"
 
         val timber = "5.0.1"
         val logcat = "0.1"
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "8.0.0"
+        val androidGradle = "8.0.1"
     }
 
 }

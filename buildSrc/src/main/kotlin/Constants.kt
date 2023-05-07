@@ -7,7 +7,7 @@ object C {
     const val PROJECT_NAME = "Magic Catalogs"
     const val PROJECT_DESCRIPTION = "Dependency versions for modern android applications"
 
-    const val PROJECT_VERSION = "2.2.0"
+    const val PROJECT_VERSION = "2.2.1"
     const val PROJECT_GROUP_ID = "com.kroegerama.magic-catalogs"
 
     const val PROJECT_URL = "https://github.com/kroegerama/magic-catalogs"
