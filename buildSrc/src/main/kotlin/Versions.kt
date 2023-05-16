@@ -7,7 +7,7 @@ object V {
         val biometric = "1.1.0"
         val browser = "1.5.0"
         val constraintlayout = "2.1.4"
-        val core = "1.10.0"
+        val core = "1.10.1"
         val datastore = "1.0.0"
         val exif = "1.3.6"
         val fragment = "1.5.7"
@@ -24,15 +24,15 @@ object V {
 
     object Base {
         val kotlin = "1.8.21"
-        val kotlinxCoroutines = "1.6.4"
-        val kotlinxSerialization = "1.5.0"
+        val kotlinxCoroutines = "1.7.1"
+        val kotlinxSerialization = "1.5.1"
         val kotlinxDateTime = "0.4.0"
 
         val desugar = "2.0.3"
 
-        val hilt = "2.46"
+        val hilt = "2.46.1"
 
-        val moshi = "1.14.0"
+        val moshi = "1.15.0"
         val okhttp = "4.10.0"
         val retrofit = "2.9.0"
 
