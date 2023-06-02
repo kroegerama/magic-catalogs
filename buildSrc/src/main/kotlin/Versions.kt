@@ -1,7 +1,7 @@
 object V {
 
     object AndroidX {
-        val activity = "1.7.1"
+        val activity = "1.7.2"
         val appcompat = "1.6.1"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
@@ -41,12 +41,12 @@ object V {
         val timber = "5.0.1"
         val logcat = "0.1"
 
-        val coil = "2.3.0"
+        val coil = "2.4.0"
         val chucker = "3.5.2"
     }
 
     object Plugins {
-        val androidGradle = "8.0.1"
+        val androidGradle = "8.0.2"
     }
 
 }
