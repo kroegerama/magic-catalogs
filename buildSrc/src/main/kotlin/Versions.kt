@@ -5,7 +5,7 @@ object V {
         val appcompat = "1.6.1"
         val autofill = "1.1.0"
         val biometric = "1.1.0"
-        val browser = "1.5.0"
+        val browser = "1.6.0"
         val constraintlayout = "2.1.4"
         val core = "1.10.1"
         val datastore = "1.0.0"
@@ -13,7 +13,7 @@ object V {
         val fragment = "1.6.1"
         val hilt = "1.0.0"
         val lifecycle = "2.6.1"
-        val navigation = "2.6.0"
+        val navigation = "2.7.1"
         val paging = "3.2.0"
         val preference = "1.2.1"
         val recycler = "1.3.1"
@@ -23,9 +23,9 @@ object V {
     }
 
     object Base {
-        val kotlin = "1.9.0"
+        val kotlin = "1.9.10"
         val kotlinxCoroutines = "1.7.3"
-        val kotlinxSerialization = "1.5.1"
+        val kotlinxSerialization = "1.6.0"
         val kotlinxDateTime = "0.4.0"
 
         val desugar = "2.0.3"
@@ -33,7 +33,7 @@ object V {
         val hilt = "2.47"
 
         val moshi = "1.15.0"
-        val okhttp = "4.10.0"
+        val okhttp = "4.11.0"
         val retrofit = "2.9.0"
 
         val material = "1.9.0"
@@ -46,7 +46,7 @@ object V {
     }
 
     object Plugins {
-        val androidGradle = "8.1.0"
+        val androidGradle = "8.1.1"
     }
 
 }
