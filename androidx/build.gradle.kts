@@ -5,7 +5,7 @@ version = C.PROJECT_VERSION
 
 catalog {
     versionCatalog {
-        with(V.AndroidX) {
+        with(AndroidX) {
             version("activity", activity)
             version("appcompat", appcompat)
             version("autofill", autofill)
@@ -21,11 +21,16 @@ catalog {
             version("navigation", navigation)
             version("paging", paging)
             version("preference", preference)
-            version("recycler", recycler)
+            version("recyclerview", recyclerview)
+            version("recyclerview-selection", recyclerviewSelection)
             version("room", room)
             version("swiperefresh", swiperefresh)
             version("work", work)
+            version("camerax", camerax)
+            version("navigation", navigation)
         }
+
+        plugin("navigation-safeArgs", "androidx.navigation.safeargs.kotlin").versionRef("navigation")
 
         library("activity", "androidx.activity", "activity-ktx").versionRef("activity")
 
@@ -38,7 +43,7 @@ catalog {
         library("core", "androidx.core", "core-ktx").versionRef("core")
 
         library("datastore", "androidx.datastore", "datastore").versionRef("datastore")
-        library("datastorePreferences", "androidx.datastore", "datastore-preferences").versionRef("datastore")
+        library("datastore-preferences", "androidx.datastore", "datastore-preferences").versionRef("datastore")
 
         library("exifinterface", "androidx.exifinterface", "exifinterface").versionRef("exif")
 
@@ -47,16 +52,16 @@ catalog {
         library("hilt-common", "androidx.hilt", "hilt-common").versionRef("hilt")
         library("hilt-compiler", "androidx.hilt", "hilt-compiler").versionRef("hilt")
         library("hilt-navigation", "androidx.hilt", "hilt-navigation").versionRef("hilt")
-        library("hilt-navigationFragment", "androidx.hilt", "hilt-navigation-fragment").versionRef("hilt")
+        library("hilt-navigation-fragment", "androidx.hilt", "hilt-navigation-fragment").versionRef("hilt")
         library("hilt-work", "androidx.hilt", "hilt-work").versionRef("hilt")
 
+        library("lifecycle-common-java8", "androidx.lifecycle", "lifecycle-common-java8").versionRef("lifecycle")
         library("lifecycle-viewmodel", "androidx.lifecycle", "lifecycle-viewmodel-ktx").versionRef("lifecycle")
         library("lifecycle-livedata", "androidx.lifecycle", "lifecycle-livedata-ktx").versionRef("lifecycle")
         library("lifecycle-runtime", "androidx.lifecycle", "lifecycle-runtime-ktx").versionRef("lifecycle")
-        library("lifecycle-common-java8", "androidx.lifecycle", "lifecycle-common-java8").versionRef("lifecycle")
         library("lifecycle-process", "androidx.lifecycle", "lifecycle-process").versionRef("lifecycle")
         library("lifecycle-service", "androidx.lifecycle", "lifecycle-service").versionRef("lifecycle")
-        library("lifecycle-viewmodelSavedState", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
+        library("lifecycle-viewmodel-savedstate", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
 
         library("navigation-common", "androidx.navigation", "navigation-common").versionRef("navigation")
         library("navigation-fragment", "androidx.navigation", "navigation-fragment-ktx").versionRef("navigation")
@@ -65,16 +70,24 @@ catalog {
         library("paging-runtime", "androidx.paging", "paging-runtime-ktx").versionRef("paging")
 
         library("preference", "androidx.preference", "preference-ktx").versionRef("preference")
-        library("recyclerview", "androidx.recyclerview", "recyclerview").versionRef("recycler")
+        library("recyclerview", "androidx.recyclerview", "recyclerview").versionRef("recyclerview")
+        library("recyclerview-selection", "androidx.recyclerview", "recyclerview-selection").versionRef("recyclerview-selection")
 
-        library("roomRuntime", "androidx.room", "room-runtime").versionRef("room")
-        library("roomCompiler", "androidx.room", "room-compiler").versionRef("room")
-        library("roomPaging", "androidx.room", "room-paging").versionRef("room")
         library("room", "androidx.room", "room-ktx").versionRef("room")
+        library("room-compiler", "androidx.room", "room-compiler").versionRef("room")
+        library("room-paging", "androidx.room", "room-paging").versionRef("room")
+        library("room-runtime", "androidx.room", "room-runtime").versionRef("room")
 
         library("swiperefreshlayout", "androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
 
         library("work-runtime", "androidx.work", "work-runtime-ktx").versionRef("work")
+
+        library("camera-core", "androidx.camera", "camera-core").versionRef("camerax")
+        library("camera-camera2", "androidx.camera", "camera-camera2").versionRef("camerax")
+        library("camera-extensions", "androidx.camera", "camera-extensions").versionRef("camerax")
+        library("camera-lifecycle", "androidx.camera", "camera-lifecycle").versionRef("camerax")
+        library("camera-view", "androidx.camera", "camera-view").versionRef("camerax")
+        library("camera-video", "androidx.camera", "camera-video").versionRef("camerax")
 
         bundle(
             "base",
@@ -97,7 +110,7 @@ catalog {
                 "lifecycle-runtime",
                 "lifecycle-common-java8",
                 "lifecycle-process",
-                "lifecycle-viewmodelSavedState"
+                "lifecycle-viewmodel-savedstate"
             )
         )
         bundle(
@@ -105,6 +118,15 @@ catalog {
             listOf(
                 "navigation-fragment",
                 "navigation-ui",
+            )
+        )
+        bundle(
+            "camerax",
+            listOf(
+                "camera-core",
+                "camera-camera2",
+                "camera-extensions",
+                "camera-lifecycle",
             )
         )
     }

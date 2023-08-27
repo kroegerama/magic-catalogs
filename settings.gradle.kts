@@ -1,5 +1,4 @@
 rootProject.name = "magic-catalogs"
 
-include(":base")
+include(":magic")
 include(":androidx")
-include(":plugins")
