@@ -28,6 +28,7 @@ catalog {
             version("work", work)
             version("camerax", camerax)
             version("navigation", navigation)
+            version("viewpager2", viewpager2)
         }
 
         plugin("navigation-safeArgs", "androidx.navigation.safeargs.kotlin").versionRef("navigation")
@@ -39,6 +40,7 @@ catalog {
         library("biometric", "androidx.biometric", "biometric").versionRef("biometric")
         library("browser", "androidx.browser", "browser").versionRef("browser")
         library("constraintlayout", "androidx.constraintlayout", "constraintlayout").versionRef("constraintlayout")
+        library("viewpager2", "androidx.viewpager2", "viewpager2").versionRef("viewpager2")
 
         library("core", "androidx.core", "core-ktx").versionRef("core")
 
