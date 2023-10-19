@@ -42,8 +42,8 @@ catalog {
 
         plugin("hilt-android", "com.google.dagger.hilt.android").versionRef("dagger")
 
-        plugin("grgit","org.ajoberstar.grgit").versionRef("grgit")
-        plugin("spotless","com.diffplug.spotless").versionRef("spotless")
+        plugin("grgit", "org.ajoberstar.grgit").versionRef("grgit")
+        plugin("spotless", "com.diffplug.spotless").versionRef("spotless")
 
         library("kotlin-stdlib-jdk8", "org.jetbrains.kotlin", "kotlin-stdlib-jdk8").versionRef("kotlin")
 
@@ -82,6 +82,7 @@ catalog {
         library("coil-gif", "io.coil-kt", "coil-gif").versionRef("coil")
         library("coil-svg", "io.coil-kt", "coil-svg").versionRef("coil")
         library("coil-video", "io.coil-kt", "coil-video").versionRef("coil")
+        library("coil-compose", "io.coil-kt", "coil-compose").versionRef("coil")
 
         library("desugar", "com.android.tools", "desugar_jdk_libs").versionRef("desugar")
 

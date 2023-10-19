@@ -56,6 +56,7 @@ catalog {
         library("hilt-navigation", "androidx.hilt", "hilt-navigation").versionRef("hilt")
         library("hilt-navigation-fragment", "androidx.hilt", "hilt-navigation-fragment").versionRef("hilt")
         library("hilt-work", "androidx.hilt", "hilt-work").versionRef("hilt")
+        library("hilt-navigation-compose", "androidx.hilt", "hilt-navigation-compose").versionRef("hilt")
 
         library("lifecycle-common-java8", "androidx.lifecycle", "lifecycle-common-java8").versionRef("lifecycle")
         library("lifecycle-viewmodel", "androidx.lifecycle", "lifecycle-viewmodel-ktx").versionRef("lifecycle")
@@ -65,9 +66,13 @@ catalog {
         library("lifecycle-service", "androidx.lifecycle", "lifecycle-service").versionRef("lifecycle")
         library("lifecycle-viewmodel-savedstate", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
 
+        library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
+        library("lifecycle-runtime-compose", "androidx.lifecycle", "lifecycle-runtime-compose").versionRef("lifecycle")
+
         library("navigation-common", "androidx.navigation", "navigation-common").versionRef("navigation")
         library("navigation-fragment", "androidx.navigation", "navigation-fragment-ktx").versionRef("navigation")
         library("navigation-ui", "androidx.navigation", "navigation-ui-ktx").versionRef("navigation")
+        library("navigation-compose", "androidx.navigation", "navigation-compose").versionRef("navigation")
 
         library("paging-runtime", "androidx.paging", "paging-runtime-ktx").versionRef("paging")
 
