@@ -1,18 +1,18 @@
 object AndroidX {
-    val activity = "1.8.1"
+    val activity = "1.8.2"
     val appcompat = "1.6.1"
     val autofill = "1.1.0"
     val biometric = "1.1.0"
     val browser = "1.7.0"
-    val camerax = "1.3.0"
+    val camerax = "1.3.1"
     val constraintlayout = "2.1.4"
     val core = "1.12.0"
     val datastore = "1.0.0"
-    val exif = "1.3.6"
+    val exif = "1.3.7"
     val fragment = "1.6.2"
     val hilt = "1.1.0"
     val lifecycle = "2.6.2"
-    val navigation = "2.7.5"
+    val navigation = "2.7.6"
     val paging = "3.2.1"
     val preference = "1.2.1"
     val recyclerview = "1.3.2"
@@ -24,21 +24,21 @@ object AndroidX {
 }
 
 object Magic {
-    val kotlin = "1.9.21"
-    val kotlinKsp = "1.9.21-1.0.15"
+    val kotlin = "1.9.22"
+    val kotlinKsp = "1.9.22-1.0.16"
     val kotlinxCoroutines = "1.7.3"
     val kotlinxSerialization = "1.6.2"
     val kotlinxDateTime = "0.5.0"
 
     val desugar = "2.0.4"
 
-    val dagger = "2.49"
+    val dagger = "2.50"
 
     val moshi = "1.15.0"
     val okhttp = "4.12.0"
     val retrofit = "2.9.0"
 
-    val material = "1.10.0"
+    val material = "1.11.0"
 
     val timber = "5.0.1"
     val logcat = "0.1"
@@ -52,5 +52,5 @@ object Magic {
     val spotless = "6.19.0"
     val grgit = "5.2.1"
 
-    val androidGradle = "8.2.0"
+    val androidGradle = "8.2.1"
 }
