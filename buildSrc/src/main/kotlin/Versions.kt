@@ -11,7 +11,7 @@ object AndroidX {
     val exif = "1.3.7"
     val fragment = "1.6.2"
     val hilt = "1.1.0"
-    val lifecycle = "2.6.2"
+    val lifecycle = "2.7.0"
     val navigation = "2.7.6"
     val paging = "3.2.1"
     val preference = "1.2.1"
@@ -25,7 +25,7 @@ object AndroidX {
 
 object Magic {
     val kotlin = "1.9.22"
-    val kotlinKsp = "1.9.22-1.0.16"
+    val kotlinKsp = "1.9.22-1.0.17"
     val kotlinxCoroutines = "1.7.3"
     val kotlinxSerialization = "1.6.2"
     val kotlinxDateTime = "0.5.0"
@@ -34,7 +34,7 @@ object Magic {
 
     val dagger = "2.50"
 
-    val moshi = "1.15.0"
+    val moshi = "1.15.1"
     val okhttp = "4.12.0"
     val retrofit = "2.9.0"
 
@@ -47,10 +47,10 @@ object Magic {
     val chucker = "4.0.0"
 
     val arrow = "1.2.1"
-    val zxing = "3.5.2"
+    val zxing = "3.5.3"
 
     val spotless = "6.19.0"
     val grgit = "5.2.1"
 
-    val androidGradle = "8.2.1"
+    val androidGradle = "8.2.2"
 }
