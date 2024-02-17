@@ -12,7 +12,7 @@ object AndroidX {
     val fragment = "1.6.2"
     val hilt = "1.1.0"
     val lifecycle = "2.7.0"
-    val navigation = "2.7.6"
+    val navigation = "2.7.7"
     val paging = "3.2.1"
     val preference = "1.2.1"
     val recyclerview = "1.3.2"
@@ -26,8 +26,8 @@ object AndroidX {
 object Magic {
     val kotlin = "1.9.22"
     val kotlinKsp = "1.9.22-1.0.17"
-    val kotlinxCoroutines = "1.7.3"
-    val kotlinxSerialization = "1.6.2"
+    val kotlinxCoroutines = "1.8.0"
+    val kotlinxSerialization = "1.6.3"
     val kotlinxDateTime = "0.5.0"
 
     val desugar = "2.0.4"
