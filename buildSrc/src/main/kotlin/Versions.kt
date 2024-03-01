@@ -52,5 +52,5 @@ object Magic {
     val spotless = "6.19.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.2.2"
+    val androidGradle = "8.3.0"
 }
