@@ -3,8 +3,8 @@ object AndroidX {
     val appcompat = "1.6.1"
     val autofill = "1.1.0"
     val biometric = "1.1.0"
-    val browser = "1.7.0"
-    val camerax = "1.3.1"
+    val browser = "1.8.0"
+    val camerax = "1.3.2"
     val constraintlayout = "2.1.4"
     val core = "1.12.0"
     val datastore = "1.0.0"
@@ -24,19 +24,19 @@ object AndroidX {
 }
 
 object Magic {
-    val kotlin = "1.9.22"
-    val kotlinKsp = "1.9.22-1.0.18"
+    val kotlin = "1.9.23"
+    val kotlinKsp = "1.9.23-1.0.19"
     val kotlinxCoroutines = "1.8.0"
     val kotlinxSerialization = "1.6.3"
     val kotlinxDateTime = "0.5.0"
 
     val desugar = "2.0.4"
 
-    val dagger = "2.51"
+    val dagger = "2.51.1"
 
     val moshi = "1.15.1"
     val okhttp = "4.12.0"
-    val retrofit = "2.9.0"
+    val retrofit = "2.11.0"
 
     val material = "1.11.0"
 
@@ -52,5 +52,5 @@ object Magic {
     val spotless = "6.19.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.3.0"
+    val androidGradle = "8.3.1"
 }
