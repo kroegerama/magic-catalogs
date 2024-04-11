@@ -25,7 +25,7 @@ object AndroidX {
 
 object Magic {
     val kotlin = "1.9.23"
-    val kotlinKsp = "1.9.23-1.0.19"
+    val kotlinKsp = "1.9.23-1.0.20"
     val kotlinxCoroutines = "1.8.0"
     val kotlinxSerialization = "1.6.3"
     val kotlinxDateTime = "0.5.0"
@@ -46,11 +46,11 @@ object Magic {
     val coil = "2.6.0"
     val chucker = "4.0.0"
 
-    val arrow = "1.2.3"
+    val arrow = "1.2.4"
     val zxing = "3.5.3"
 
     val spotless = "6.19.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.3.1"
+    val androidGradle = "8.3.2"
 }
