@@ -33,7 +33,7 @@ catalog {
 
         plugin("navigation-safeArgs", "androidx.navigation.safeargs.kotlin").versionRef("navigation")
 
-        library("activity", "androidx.activity", "activity-ktx").versionRef("activity")
+        library("activity", "androidx.activity", "activity").versionRef("activity")
 
         library("appcompat", "androidx.appcompat", "appcompat").versionRef("appcompat")
         library("autofill", "androidx.autofill", "autofill").versionRef("autofill")
