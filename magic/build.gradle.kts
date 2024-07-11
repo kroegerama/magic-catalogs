@@ -34,6 +34,7 @@ catalog {
         plugin("kotlin-parcelize", "org.jetbrains.kotlin.plugin.parcelize").versionRef("kotlin")
         plugin("kotlin-serialization", "org.jetbrains.kotlin.plugin.serialization").versionRef("kotlin")
         plugin("kotlin-multiplatform", "org.jetbrains.kotlin.multiplatform").versionRef("kotlin")
+        plugin("kotlin-compose", "org.jetbrains.kotlin.plugin.compose").versionRef("kotlin")
 
         plugin("ksp", "com.google.devtools.ksp").versionRef("kotlinKsp")
 

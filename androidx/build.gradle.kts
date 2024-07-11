@@ -14,6 +14,7 @@ catalog {
             version("constraintlayout", constraintlayout)
             version("core", core)
             version("datastore", datastore)
+            version("documentfile", documentfile)
             version("exif", exif)
             version("fragment", fragment)
             version("hilt", hilt)
@@ -24,16 +25,20 @@ catalog {
             version("recyclerview", recyclerview)
             version("recyclerview-selection", recyclerviewSelection)
             version("room", room)
+            version("startup", startup)
             version("swiperefresh", swiperefresh)
             version("work", work)
             version("camerax", camerax)
             version("navigation", navigation)
             version("viewpager2", viewpager2)
+
+            version("composeBom", composeBom)
         }
 
         plugin("navigation-safeArgs", "androidx.navigation.safeargs.kotlin").versionRef("navigation")
 
         library("activity", "androidx.activity", "activity").versionRef("activity")
+        library("activity-compose", "androidx.activity", "activity-compose").versionRef("activity")
 
         library("appcompat", "androidx.appcompat", "appcompat").versionRef("appcompat")
         library("autofill", "androidx.autofill", "autofill").versionRef("autofill")
@@ -46,6 +51,8 @@ catalog {
 
         library("datastore", "androidx.datastore", "datastore").versionRef("datastore")
         library("datastore-preferences", "androidx.datastore", "datastore-preferences").versionRef("datastore")
+
+        library("documentfile", "androidx.documentfile", "documentfile").versionRef("documentfile")
 
         library("exifinterface", "androidx.exifinterface", "exifinterface").versionRef("exif")
 
@@ -65,6 +72,7 @@ catalog {
         library("lifecycle-process", "androidx.lifecycle", "lifecycle-process").versionRef("lifecycle")
         library("lifecycle-service", "androidx.lifecycle", "lifecycle-service").versionRef("lifecycle")
         library("lifecycle-viewmodel-savedstate", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
+        library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
 
         library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
         library("lifecycle-runtime-compose", "androidx.lifecycle", "lifecycle-runtime-compose").versionRef("lifecycle")
@@ -85,6 +93,8 @@ catalog {
         library("room-paging", "androidx.room", "room-paging").versionRef("room")
         library("room-runtime", "androidx.room", "room-runtime").versionRef("room")
 
+        library("startup", "androidx.startup", "startup-runtime").versionRef("startup")
+
         library("swiperefreshlayout", "androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
 
         library("work-runtime", "androidx.work", "work-runtime-ktx").versionRef("work")
@@ -96,6 +106,8 @@ catalog {
         library("camera-view", "androidx.camera", "camera-view").versionRef("camerax")
         library("camera-video", "androidx.camera", "camera-video").versionRef("camerax")
 
+        library("compose-bom", "androidx.compose", "compose-bom").versionRef("composeBom")
+
         bundle(
             "base",
             listOf(
@@ -103,8 +115,10 @@ catalog {
                 "appcompat",
                 "constraintlayout",
                 "core",
+                "documentfile",
                 "fragment",
                 "recyclerview",
+                "startup",
                 "swiperefreshlayout"
             )
         )
