@@ -1,5 +1,5 @@
 object AndroidX {
-    val activity = "1.9.0"
+    val activity = "1.9.1"
     val appcompat = "1.7.0"
     val autofill = "1.1.0"
     val biometric = "1.1.0"
@@ -10,11 +10,11 @@ object AndroidX {
     val datastore = "1.1.1"
     val documentfile = "1.0.1"
     val exif = "1.3.7"
-    val fragment = "1.8.1"
+    val fragment = "1.8.2"
     val hilt = "1.2.0"
-    val lifecycle = "2.8.3"
+    val lifecycle = "2.8.4"
     val navigation = "2.7.7"
-    val paging = "3.3.0"
+    val paging = "3.3.1"
     val preference = "1.2.1"
     val recyclerview = "1.3.2"
     val recyclerviewSelection = "1.1.0"
@@ -29,7 +29,7 @@ object AndroidX {
 
 object Magic {
     val kotlin = "2.0.0"
-    val kotlinKsp = "2.0.0-1.0.22"
+    val kotlinKsp = "2.0.0-1.0.23"
     val kotlinxCoroutines = "1.8.1"
     val kotlinxSerialization = "1.7.1"
     val kotlinxDateTime = "0.6.0"
@@ -47,7 +47,7 @@ object Magic {
     val timber = "5.0.1"
     val logcat = "0.1"
 
-    val coil = "2.6.0"
+    val coil = "2.7.0"
     val chucker = "4.0.0"
 
     val arrow = "1.2.4"
@@ -56,5 +56,5 @@ object Magic {
     val spotless = "6.19.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.5.0"
+    val androidGradle = "8.5.1"
 }
