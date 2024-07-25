@@ -1,5 +1,6 @@
 @file:Suppress("SpellCheckingInspection")
 
+
 group = C.PROJECT_GROUP_ID
 version = C.PROJECT_VERSION
 
@@ -72,7 +73,6 @@ catalog {
         library("lifecycle-process", "androidx.lifecycle", "lifecycle-process").versionRef("lifecycle")
         library("lifecycle-service", "androidx.lifecycle", "lifecycle-service").versionRef("lifecycle")
         library("lifecycle-viewmodel-savedstate", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
-        library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
 
         library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
         library("lifecycle-runtime-compose", "androidx.lifecycle", "lifecycle-runtime-compose").versionRef("lifecycle")
