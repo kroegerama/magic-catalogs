@@ -21,6 +21,7 @@ catalog {
             version("hilt", hilt)
             version("lifecycle", lifecycle)
             version("navigation", navigation)
+            version("palette", palette)
             version("paging", paging)
             version("preference", preference)
             version("recyclerview", recyclerview)
@@ -83,6 +84,7 @@ catalog {
         library("navigation-compose", "androidx.navigation", "navigation-compose").versionRef("navigation")
 
         library("paging-runtime", "androidx.paging", "paging-runtime-ktx").versionRef("paging")
+        library("paging-compose", "androidx.paging", "paging-compose").versionRef("paging")
 
         library("preference", "androidx.preference", "preference-ktx").versionRef("preference")
         library("recyclerview", "androidx.recyclerview", "recyclerview").versionRef("recyclerview")
@@ -94,6 +96,8 @@ catalog {
         library("room-runtime", "androidx.room", "room-runtime").versionRef("room")
 
         library("startup", "androidx.startup", "startup-runtime").versionRef("startup")
+
+        library("palette", "androidx.palette", "palette").versionRef("palette")
 
         library("swiperefreshlayout", "androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
 

@@ -13,8 +13,9 @@ object AndroidX {
     val fragment = "1.8.2"
     val hilt = "1.2.0"
     val lifecycle = "2.8.4"
+    val palette = "1.0.0"
     val navigation = "2.7.7"
-    val paging = "3.3.1"
+    val paging = "3.3.2"
     val preference = "1.2.1"
     val recyclerview = "1.3.2"
     val recyclerviewSelection = "1.1.0"
@@ -22,21 +23,21 @@ object AndroidX {
     val startup = "1.1.1"
     val swiperefresh = "1.1.0"
     val viewpager2 = "1.1.0"
-    val work = "2.9.0"
+    val work = "2.9.1"
 
     val composeBom = "2024.06.00"
 }
 
 object Magic {
-    val kotlin = "2.0.0"
-    val kotlinKsp = "2.0.0-1.0.23"
+    val kotlin = "2.0.10"
+    val kotlinKsp = "2.0.10-1.0.24"
     val kotlinxCoroutines = "1.8.1"
     val kotlinxSerialization = "1.7.1"
     val kotlinxDateTime = "0.6.0"
 
     val desugar = "2.0.4"
 
-    val dagger = "2.51.1"
+    val dagger = "2.52"
 
     val moshi = "1.15.1"
     val okhttp = "4.12.0"
@@ -53,8 +54,8 @@ object Magic {
     val arrow = "1.2.4"
     val zxing = "3.5.3"
 
-    val spotless = "6.19.0"
+    val spotless = "6.25.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.5.1"
+    val androidGradle = "8.5.2"
 }
