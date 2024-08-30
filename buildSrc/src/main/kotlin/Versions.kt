@@ -25,17 +25,17 @@ object AndroidX {
     val viewpager2 = "1.1.0"
     val work = "2.9.1"
 
-    val composeBom = "2024.06.00"
+    val composeBom = "2024.08.00"
 }
 
 object Magic {
-    val kotlin = "2.0.10"
-    val kotlinKsp = "2.0.10-1.0.24"
+    val kotlin = "2.0.20"
+    val kotlinKsp = "2.0.20-1.0.24"
     val kotlinxCoroutines = "1.8.1"
-    val kotlinxSerialization = "1.7.1"
-    val kotlinxDateTime = "0.6.0"
+    val kotlinxSerialization = "1.7.2"
+    val kotlinxDateTime = "0.6.1"
 
-    val desugar = "2.0.4"
+    val desugar = "2.1.1"
 
     val dagger = "2.52"
 
@@ -57,5 +57,5 @@ object Magic {
     val spotless = "6.25.0"
     val grgit = "5.2.2"
 
-    val androidGradle = "8.5.2"
+    val androidGradle = "8.6.0"
 }
