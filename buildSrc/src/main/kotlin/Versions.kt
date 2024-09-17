@@ -25,13 +25,13 @@ object AndroidX {
     val viewpager2 = "1.1.0"
     val work = "2.9.1"
 
-    val composeBom = "2024.09.00"
+    val composeBom = "2024.09.01"
 }
 
 object Magic {
     val kotlin = "2.0.20"
-    val kotlinKsp = "2.0.20-1.0.24"
-    val kotlinxCoroutines = "1.8.1"
+    val kotlinKsp = "2.0.20-1.0.25"
+    val kotlinxCoroutines = "1.9.0"
     val kotlinxSerialization = "1.7.2"
     val kotlinxDateTime = "0.6.1"
 

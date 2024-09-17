@@ -57,6 +57,7 @@ catalog {
         library("kotlinx-coroutines-guava", "org.jetbrains.kotlinx", "kotlinx-coroutines-guava").versionRef("kotlinxCoroutines")
         library("kotlinx-coroutines-playServices", "org.jetbrains.kotlinx", "kotlinx-coroutines-play-services").versionRef("kotlinxCoroutines")
 
+        library("kotlinx-serialization-core", "org.jetbrains.kotlinx", "kotlinx-serialization-core").versionRef("kotlinxSerialization")
         library("kotlinx-serialization-json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").versionRef("kotlinxSerialization")
         library("kotlinx-serialization-protobuf", "org.jetbrains.kotlinx", "kotlinx-serialization-protobuf").versionRef("kotlinxSerialization")
 
