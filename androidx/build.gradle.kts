@@ -68,9 +68,9 @@ catalog {
         library("hilt-navigation-compose", "androidx.hilt", "hilt-navigation-compose").versionRef("hilt")
 
         library("lifecycle-common-java8", "androidx.lifecycle", "lifecycle-common-java8").versionRef("lifecycle")
-        library("lifecycle-viewmodel", "androidx.lifecycle", "lifecycle-viewmodel").versionRef("lifecycle")
+        library("lifecycle-viewmodel", "androidx.lifecycle", "lifecycle-viewmodel-ktx").versionRef("lifecycle")
         library("lifecycle-livedata", "androidx.lifecycle", "lifecycle-livedata-ktx").versionRef("lifecycle")
-        library("lifecycle-runtime", "androidx.lifecycle", "lifecycle-runtime").versionRef("lifecycle")
+        library("lifecycle-runtime", "androidx.lifecycle", "lifecycle-runtime-ktx").versionRef("lifecycle")
         library("lifecycle-process", "androidx.lifecycle", "lifecycle-process").versionRef("lifecycle")
         library("lifecycle-service", "androidx.lifecycle", "lifecycle-service").versionRef("lifecycle")
         library("lifecycle-viewmodel-savedstate", "androidx.lifecycle", "lifecycle-viewmodel-savedstate").versionRef("lifecycle")
@@ -97,7 +97,7 @@ catalog {
 
         library("startup", "androidx.startup", "startup-runtime").versionRef("startup")
 
-        library("palette", "androidx.palette", "palette").versionRef("palette")
+        library("palette", "androidx.palette", "palette-ktx").versionRef("palette")
 
         library("swiperefreshlayout", "androidx.swiperefreshlayout", "swiperefreshlayout").versionRef("swiperefresh")
 
