@@ -31,7 +31,6 @@ catalog {
             version("swiperefresh", swiperefresh)
             version("work", work)
             version("camerax", camerax)
-            version("navigation", navigation)
             version("viewpager2", viewpager2)
 
             version("composeBom", composeBom)

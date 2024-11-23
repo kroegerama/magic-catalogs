@@ -14,8 +14,8 @@ object AndroidX {
     val hilt = "1.2.0"
     val lifecycle = "2.8.7"
     val palette = "1.0.0"
-    val navigation = "2.8.3"
-    val paging = "3.3.2"
+    val navigation = "2.8.4"
+    val paging = "3.3.4"
     val preference = "1.2.1"
     val recyclerview = "1.3.2"
     val recyclerviewSelection = "1.1.0"
@@ -25,17 +25,17 @@ object AndroidX {
     val viewpager2 = "1.1.0"
     val work = "2.10.0"
 
-    val composeBom = "2024.10.01"
+    val composeBom = "2024.11.00"
 }
 
 object Magic {
     val kotlin = "2.0.21"
-    val kotlinKsp = "2.0.21-1.0.26"
+    val kotlinKsp = "2.0.21-1.0.28"
     val kotlinxCoroutines = "1.9.0"
     val kotlinxSerialization = "1.7.3"
     val kotlinxDateTime = "0.6.1"
 
-    val desugar = "2.1.2"
+    val desugar = "2.1.3"
 
     val dagger = "2.52"
 
