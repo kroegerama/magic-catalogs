@@ -18,6 +18,7 @@ catalog {
             version("dagger", dagger)
             version("material", material)
             version("coil", coil)
+            version("coil3", coil3)
             version("desugar", desugar)
             version("chucker", chucker)
             version("timber", timber)
@@ -85,6 +86,8 @@ catalog {
         library("coil-svg", "io.coil-kt", "coil-svg").versionRef("coil")
         library("coil-video", "io.coil-kt", "coil-video").versionRef("coil")
         library("coil-compose", "io.coil-kt", "coil-compose").versionRef("coil")
+
+        library("coil3-bom", "io.coil-kt.coil3", "coil").versionRef("coil3")
 
         library("desugar", "com.android.tools", "desugar_jdk_libs").versionRef("desugar")
 

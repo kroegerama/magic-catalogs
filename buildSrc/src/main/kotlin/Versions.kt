@@ -31,13 +31,13 @@ object AndroidX {
 object Magic {
     val kotlin = "2.1.0"
     val kotlinKsp = "2.1.0-1.0.29"
-    val kotlinxCoroutines = "1.9.0"
+    val kotlinxCoroutines = "1.10.1"
     val kotlinxSerialization = "1.7.3"
     val kotlinxDateTime = "0.6.1"
 
-    val desugar = "2.1.3"
+    val desugar = "2.1.4"
 
-    val dagger = "2.53.1"
+    val dagger = "2.54"
 
     val moshi = "1.15.2"
     val okhttp = "4.12.0"
@@ -49,6 +49,7 @@ object Magic {
     val logcat = "0.1"
 
     val coil = "2.7.0"
+    val coil3 = "3.0.4"
     val chucker = "4.1.0"
 
     val arrow = "2.0.0"
