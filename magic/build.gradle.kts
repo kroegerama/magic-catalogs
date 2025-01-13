@@ -12,6 +12,7 @@ catalog {
             version("kotlinxDateTime", kotlinxDateTime)
             version("kotlinxCoroutines", kotlinxCoroutines)
             version("kotlinxSerialization", kotlinxSerialization)
+            version("kotlinxImmutableCollections", kotlinxImmutableCollections)
             version("moshi", moshi)
             version("okhttp", okhttp)
             version("retrofit", retrofit)
@@ -19,6 +20,7 @@ catalog {
             version("material", material)
             version("coil", coil)
             version("coil3", coil3)
+            version("landscapist", landscapist)
             version("desugar", desugar)
             version("chucker", chucker)
             version("timber", timber)
@@ -50,6 +52,7 @@ catalog {
         library("kotlin-stdlib-jdk8", "org.jetbrains.kotlin", "kotlin-stdlib-jdk8").versionRef("kotlin")
 
         library("kotlinx-dateTime", "org.jetbrains.kotlinx", "kotlinx-datetime").versionRef("kotlinxDateTime")
+        library("kotlinx-immutableCollections", "org.jetbrains.kotlinx", "kotlinx-collections-immutable").versionRef("kotlinxImmutableCollections")
 
         library("kotlinx-coroutines-core", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("kotlinxCoroutines")
         library("kotlinx-coroutines-android", "org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("kotlinxCoroutines")
@@ -87,7 +90,8 @@ catalog {
         library("coil-video", "io.coil-kt", "coil-video").versionRef("coil")
         library("coil-compose", "io.coil-kt", "coil-compose").versionRef("coil")
 
-        library("coil3-bom", "io.coil-kt.coil3", "coil").versionRef("coil3")
+        library("coil3-bom", "io.coil-kt.coil3", "coil-bom").versionRef("coil3")
+        library("landscapist-bom", "com.github.skydoves", "landscapist-bom").versionRef("landscapist")
 
         library("desugar", "com.android.tools", "desugar_jdk_libs").versionRef("desugar")
 
