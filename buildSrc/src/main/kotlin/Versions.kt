@@ -1,5 +1,5 @@
 object AndroidX {
-    val activity = "1.9.3"
+    val activity = "1.10.0"
     val appcompat = "1.7.0"
     val autofill = "1.1.0"
     val biometric = "1.1.0"
@@ -7,7 +7,7 @@ object AndroidX {
     val camerax = "1.4.1"
     val constraintlayout = "2.2.0"
     val core = "1.15.0"
-    val datastore = "1.1.1"
+    val datastore = "1.1.2"
     val documentfile = "1.0.1"
     val exif = "1.3.7"
     val fragment = "1.8.5"
@@ -17,7 +17,7 @@ object AndroidX {
     val navigation = "2.8.5"
     val paging = "3.3.5"
     val preference = "1.2.1"
-    val recyclerview = "1.3.2"
+    val recyclerview = "1.4.0"
     val recyclerviewSelection = "1.1.0"
     val room = "2.6.1"
     val startup = "1.2.0"
@@ -25,7 +25,7 @@ object AndroidX {
     val viewpager2 = "1.1.0"
     val work = "2.10.0"
 
-    val composeBom = "2024.12.01"
+    val composeBom = "2025.01.00"
 }
 
 object Magic {
