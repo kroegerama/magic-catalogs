@@ -77,6 +77,7 @@ catalog {
         library("lifecycle-viewmodel-compose", "androidx.lifecycle", "lifecycle-viewmodel-compose").versionRef("lifecycle")
         library("lifecycle-runtime-compose", "androidx.lifecycle", "lifecycle-runtime-compose").versionRef("lifecycle")
 
+        library("navigation-runtime", "androidx.navigation", "navigation-runtime").versionRef("navigation")
         library("navigation-common", "androidx.navigation", "navigation-common").versionRef("navigation")
         library("navigation-fragment", "androidx.navigation", "navigation-fragment-ktx").versionRef("navigation")
         library("navigation-ui", "androidx.navigation", "navigation-ui-ktx").versionRef("navigation")
