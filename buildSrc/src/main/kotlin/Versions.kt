@@ -10,12 +10,12 @@ object AndroidX {
     val datastore = "1.1.2"
     val documentfile = "1.0.1"
     val exif = "1.3.7"
-    val fragment = "1.8.5"
+    val fragment = "1.8.6"
     val hilt = "1.2.0"
     val lifecycle = "2.8.7"
+    val navigation = "2.8.7"
+    val paging = "3.3.6"
     val palette = "1.0.0"
-    val navigation = "2.8.6"
-    val paging = "3.3.5"
     val preference = "1.2.1"
     val recyclerview = "1.4.0"
     val recyclerviewSelection = "1.1.0"
@@ -25,15 +25,15 @@ object AndroidX {
     val viewpager2 = "1.1.0"
     val work = "2.10.0"
 
-    val composeBom = "2025.01.01"
+    val composeBom = "2025.02.00"
 }
 
 object Magic {
     val kotlin = "2.1.10"
-    val kotlinKsp = "2.1.10-1.0.29"
+    val kotlinKsp = "2.1.10-1.0.30"
     val kotlinxCoroutines = "1.10.1"
     val kotlinxSerialization = "1.8.0"
-    val kotlinxDateTime = "0.6.1"
+    val kotlinxDateTime = "0.6.2"
     val kotlinxImmutableCollections = "0.3.8"
 
     val desugar = "2.1.4"
@@ -51,7 +51,7 @@ object Magic {
 
     val coil = "2.7.0"
     val coil3 = "3.1.0"
-    val landscapist = "2.4.6"
+    val landscapist = "2.4.7"
     val chucker = "4.1.0"
 
     val arrow = "2.0.1"
@@ -60,5 +60,5 @@ object Magic {
     val spotless = "6.25.0"
     val grgit = "5.3.0"
 
-    val androidGradle = "8.8.0"
+    val androidGradle = "8.8.1"
 }
