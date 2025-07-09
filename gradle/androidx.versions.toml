@@ -14,7 +14,12 @@ exif = "1.4.1"
 fragment = "1.8.8"
 hilt = "1.2.0"
 lifecycle = "2.9.1"
-navigation = "2.9.0"
+
+# 2.9.0 and 2.9.1 are broken
+# https://issuetracker.google.com/issues/421314609
+# https://issuetracker.google.com/issues/417784831
+navigation = "2.8.9"
+
 paging = "3.3.6"
 palette = "1.0.0"
 preference = "1.2.1"
@@ -53,6 +58,7 @@ datastore-preferences = { group = "androidx.datastore", name = "datastore-prefer
 documentfile = { group = "androidx.documentfile", name = "documentfile", version.ref = "documentfile" }
 exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exif" }
 fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
+fragment-compose = { group = "androidx.fragment", name = "fragment-compose", version.ref = "fragment" }
 hilt-common = { group = "androidx.hilt", name = "hilt-common", version.ref = "hilt" }
 hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt" }
 hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation", version.ref = "hilt" }
@@ -100,6 +106,16 @@ base = [
     "recyclerview",
     "startup",
     "swiperefreshlayout"
+]
+
+compose = [
+    "activity-compose",
+    "fragment-compose",
+    "lifecycle-viewmodel-compose",
+    "lifecycle-runtime-compose",
+    "navigation-compose",
+    "hilt-navigation-compose",
+    "paging-compose"
 ]
 
 lifecycle = [
