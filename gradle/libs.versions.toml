@@ -1,5 +1,5 @@
 [versions]
-versions = "0.52.0"
+versions = "0.53.0"
 nexus-publish = "2.0.0"
 
 [plugins]
